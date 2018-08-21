@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="dist/css/main.css">
+
     <title>Mario Ernesto - Desenvolvedor Full Stack e WordPress Especialista</title>
   </head>
    <body>
@@ -21,12 +23,34 @@
               <p class="text-muted">Já atuei em diversos projetos com WordPress, tendo desenvolvido E-Commerces, Sistemas Imobiliários, Sistemas de B2B, CashBack, Marketplaces entre outros. Minha motivação é trazer soluções criativas, flexíveis, escaláveis com alta qualidade e performance e meu lema é transformar suas ideias em soluções!</p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contato</h4>
-              <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Linkedin</a></li>
-                <li><a href="#" class="text-white">Github</a></li>
-                <li><a href="#" class="text-white">E-mail</a></li>
-              </ul>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contato</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-sm mar-top">
+                      <h4 class="text-white">Contato</h4>
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Linkedin</a></li>
+                        <li><a href="#" class="text-white">Github</a></li>
+                        <li><a href="#" class="text-white">E-mail</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -36,7 +60,7 @@
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
             <i class="fab fa-wordpress" style="margin-right: 5px;"></i>
-            <strong>Mario Ernesto</strong>
+            <strong>marioernestoms</strong>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
