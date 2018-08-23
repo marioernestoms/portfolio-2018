@@ -6,7 +6,7 @@
 		<div class="container">
 			<img class="rounded-circle img-avatar mar-btm" src="assets/img/mario_perfil.jpg" alt="Generic placeholder image" width="150" height="150">
 			<h1 class="jumbotron-heading">Mario Ernesto!</h1>
-			<p class="lead text-muted">Desenvolvedor Full Stack e WordPress Especialista</p>
+			<p class="lead text-muted">Desenvolvedor WordPress</p>
 			<p>
 				<a href="#" class="btn btn-primary my-2">Meu Resumo</a>
 				<a href="#" class="btn btn-secondary my-2">Perfil Linkedin</a>

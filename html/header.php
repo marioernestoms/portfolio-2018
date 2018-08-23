@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Oswald" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    
     <link rel="stylesheet" href="dist/css/main.css">
 
     <title>Mario Ernesto - Desenvolvedor Full Stack e WordPress Especialista</title>
@@ -34,7 +36,7 @@
                           <a class="nav-link" href="#">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Blog</a>
+                          <a class="nav-link" href="archive.php">Blog</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">Contato</a>
