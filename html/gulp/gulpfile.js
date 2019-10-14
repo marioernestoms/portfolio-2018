@@ -19,7 +19,7 @@ var config = {
 };
 
 // browser-sync task for starting the server.
-gulp.task('browser-sync', function() {
+gulp.task('browser-sync', function () {
   //watch files
   var files = ['../dist/main.css', '../*.php'];
 
@@ -32,7 +32,7 @@ gulp.task('browser-sync', function() {
 });
 
 // Lint Task
-gulp.task('lint', function() {
+gulp.task('lint', function () {
   return gulp
     .src('../assets/js/*.js')
     .pipe(jshint())
@@ -40,7 +40,7 @@ gulp.task('lint', function() {
 });
 
 // Yarn
-gulp.task('yarn', function() {
+gulp.task('yarn', function () {
   return gulp
     .src(['./package.json', './yarn.lock'])
     .pipe(gulp.dest('./core'))
@@ -52,11 +52,11 @@ gulp.task('yarn', function() {
 });
 
 // Compile Our Sass
-gulp.task('sass', function() {
+gulp.task('sass', function () {
   return gulp
     .src([
       'node_modules/bootstrap/scss/bootstrap.scss',
-      '../assets/scss/main.scss'
+      '../assets/scss/*.scss'
     ])
     .pipe(
       sass({
@@ -68,7 +68,7 @@ gulp.task('sass', function() {
 });
 
 // Concatenate & Minify JS
-gulp.task('js', function() {
+gulp.task('js', function () {
   return gulp
     .src([
       'node_modules/bootstrap/dist/js/bootstrap.min.js',
@@ -83,15 +83,14 @@ gulp.task('js', function() {
 });
 
 // Compress all images
-gulp.task('images', function() {
+gulp.task('images', function () {
   return gulp
     .src('../assets/img/**/*')
     .pipe(
       imagemin({
         progressive: true,
         interlaced: true,
-        svgoPlugins: [
-          {
+        svgoPlugins: [{
             removeUnknownsAndDefaults: false
           },
           {
@@ -105,14 +104,14 @@ gulp.task('images', function() {
 });
 
 // Watch Files For Changes
-gulp.task('watch', function() {
+gulp.task('watch', function () {
   //gulp.watch('../assets/js/*.js', ['lint', 'scripts']);
   gulp.watch('../assets/scss/**', ['sass']);
 });
 
 gulp.task(
   'default',
-  gulp.series(function(done) {
+  gulp.series(function (done) {
     // task code here
     done();
   })
