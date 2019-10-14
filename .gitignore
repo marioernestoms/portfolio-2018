@@ -36,6 +36,7 @@ ai1wm-backups/
 wp-snapshots/
 replace-uploads.php
 backwpup_readme.txt
+yarn.lock
 
 # large/disallowed file types
 # a CDN should be used for these
