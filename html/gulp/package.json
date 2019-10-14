@@ -26,10 +26,10 @@
   },
   "devDependencies": {
     "browser-sync": "^2.11.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-concat": "~2.6.0",
-    "gulp-imagemin": "^2.4.0",
+    "gulp-imagemin": "^6.1.1",
     "gulp-jshint": "~2.0.0",
     "gulp-notify": "^2.2.0",
     "gulp-rename": "~1.2.2",
@@ -40,7 +40,10 @@
     "jshint": "~2.9.1"
   },
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-alpha.6",
+    "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
     "sass-module-importer": "^1.4.0"
   }
 }
